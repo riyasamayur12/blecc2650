@@ -25,7 +25,7 @@ if [ -f "evothings.json" ]; then
 fi
 cd ..
   #fi
-done
+#done
 #cd ..
 printf "]" >> $LIST
 
