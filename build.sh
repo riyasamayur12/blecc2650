@@ -10,7 +10,7 @@ printf "[\n" >> $LIST
 FIRST=true
 #for D in *; do
  # if [ -d "${D}" ]; then
-cd /$D
+cd $D
 if [ -f "evothings.json" ]; then
   echo "Copying $D to $OUT ..."
   cp -a ../$D $OUT/
