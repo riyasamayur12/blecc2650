@@ -5,12 +5,12 @@ LIST=$OUT/examples-list.json
 
 rm -rf $OUT
 mkdir $OUT
-D=/ble-ti-sensortag-cc2650-demo
+D=ble-ti-sensortag-cc2650-demo
 printf "[\n" >> $LIST
 FIRST=true
 #for D in *; do
  # if [ -d "${D}" ]; then
-    cd $D
+    cd /$D
     if [ -f "evothings.json" ]; then
       echo "Copying $D to $OUT ..."
       cp -a ../$D $OUT/
